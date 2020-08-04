@@ -20,7 +20,7 @@ public class HomeController {
     public String home(final Model model) {
         final String title = getTitle();
         model.addAttribute("title", StringUtils.hasText(title) ? title : "Docker with Spring Boot and ThemeLeaf !!");
-        model.addAttribute("msg", "Welcome to docker containerized application. Added for jenkins");
+        model.addAttribute("msg", "Welcome to docker containerized application. Added for jenkins Again");
         return "index";
     }
 
